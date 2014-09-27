@@ -1,0 +1,400 @@
+@font-face {
+    font-family: BryantLG;
+    src: url(../fonts/bryant.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F0F0F0;
+    color: #808285;
+    font-family: BryantLG;
+    font-size: 22px;
+}
+
+#header {
+    height: 153px;
+    color: #fff;
+    background: #FC6F06;
+    border-bottom: 1px solid #ff9444;
+}
+#header a {
+    color: #fff;
+}
+.logo {
+    display: block;
+    width: 217px;
+    height: 198px;
+    background: url("../images/logo.png") no-repeat center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.content {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#slider {
+    background: url("../images/wood-bg.jpg") repeat-x top left;
+    border-bottom: 10px solid #FC6F06;
+}
+
+.orange-btn {
+    background: #FC6F06;
+    color: #FFF;
+}
+.light-btn {
+    background: #FFF;
+    color: #333;
+}
+
+.orange-btn:hover,
+.light-btn:hover{
+    background: #ff9342;
+}
+
+.all-button {
+    background: url("../images/all-buttons.png") no-repeat;
+}
+
+.top-btn {
+    display: block;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.small-facebook {
+    display: block;
+    width: 8px;
+    height: 15px;
+    margin: 8px 10px;
+    background-position: 1px 1px;
+}
+
+.small-twiter {
+    display: block;
+    width: 12px;
+    height: 15px;
+    margin: 8px 10px;
+    background-position: -20px 1px;
+}
+
+.small-googleplus {
+    display: block;
+    width: 11px;
+    height: 15px;
+    margin: 8px 10px;
+    background-position: -7px 1px;
+}
+
+#top-socials {
+    float: right;
+    margin-top: 30px;
+}
+
+#main-menu {
+    margin-top: 40px;
+    font-size: 15px;
+    clear: both;
+    float: right;
+    text-transform: uppercase;
+}
+
+#main-menu a {
+    text-decoration: none;
+}
+
+#top-socials ul,
+#main-menu ul {
+    list-style: none;
+}
+
+#top-socials li,
+#main-menu li {
+    float: left;
+}
+#main-menu li {
+     border-right: 1px solid #fff;
+     padding: 0 20px;
+     height: 20px;
+}
+#main-menu li:last-child {
+    border-right: none;
+}
+#main-menu li .active{
+    background: #fff;
+    color: #FC6F06;
+}
+#main-menu li a{
+    margin-top: -10px;
+    display: block;
+    padding: 10px;
+}
+
+
+/** CSS For Slider **/
+/* Basic jQuery Slider essential styles */
+#slider-content {
+    position: relative;
+    margin: 0 auto;
+}
+.bottom-group-btn {
+    float: left;
+    list-style: none;
+}
+.bottom-group-btn a{
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+.bottom-group-btn li {
+    float: left;
+}
+
+.sample {
+    margin-left: 100px;
+    margin-top: 120px;
+    float: left;
+    width: 500px;
+}
+.sample img {
+    margin: 0 !important;
+}
+
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{
+    position:absolute;
+    display:none;
+}
+li.bjqs-slide img:first-child{
+    float: left;
+    margin-top: 60px;
+    margin-left: 120px;
+    max-width: 350px;
+}
+
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{
+    list-style: none;
+    padding: 0;
+    margin: -14px 0;
+    width:100%;
+}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{
+    display:inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+
+
+ul.bjqs-controls.v-centered li a{
+    display:block;
+    padding:10px;
+    background:#fff;
+    color:#000;
+    text-decoration: none;
+}
+
+ul.bjqs-controls.v-centered li a:hover{
+    background:#000;
+    color:#fff;
+}
+
+ol.bjqs-markers li a{
+    text-indent: -9999px;
+    width: 18px;
+    height: 18px;
+    padding:0;
+    background:#FC6F06;
+    color:#fff;
+    margin:5px;
+    text-decoration: none;
+    border: 5px solid #FC6F06;
+}
+
+ol.bjqs-markers li.active-marker a{
+    background: #fff;
+}
+
+ol.bjqs-markers li a:hover{
+    background: #ff9444;
+}
+
+
+p.bjqs-caption{
+    background: rgba(255,255,255,0.5);
+}
+
+/** CSS FOR QUOTE **/
+#favorite-quote {
+    margin: 60px auto;
+    position: relative;
+}
+.left-quote {
+    display: block;
+    background: url("../images/all-buttons.png") no-repeat top -20px left -1px;
+    width: 31px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.right-quote {
+    display: block;
+    background: url("../images/all-buttons.png") no-repeat top -20px left -1px;
+    width: 31px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+.big-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.big-title b {
+    font-weight: bold;
+    color: #333;
+}
+.quote-content {
+    text-align: center;
+    padding: 30px 150px 10px 150px;
+}
+.author {
+    text-align: center;
+}
+.author:before,
+.author:after {
+    content: "-";
+}
+
+/**** SERVICES ****/
+#top-services {
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.service {
+    width: 30%;
+    float: left;
+    margin: 30px 1.5%;
+    background: #fff;
+    padding-top: 70px;
+    height: 160px;
+    position: relative;
+}
+.service:hover {
+    box-shadow: 0px 0px 10px #ddd;
+}
+
+.service h3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.service h3 b{
+    color: #333;
+    font-weight: bold;
+}
+
+.service p {
+    color: #939598;
+    text-align: center;
+    font-size: 20px;
+    line-height: 22px;
+    padding: 5px 20px;
+}
+
+.service-icon {
+    background: #FC6F06;
+    display: block;
+    position: absolute;
+    top: -42px;
+    left: 50%;
+    margin-left: -42px;
+}
+
+.service:hover .service-icon {
+    background: #ff9444;
+}
+
+.icon-unique {
+    display: block;
+    margin: 15px;
+    width: 65px;
+    height: 65px;
+    background: url("../images/all-buttons.png") no-repeat top -62px left 0;
+}
+
+.icon-styling {
+    display: block;
+    margin: 25px 25px 20px;
+    width: 45px;
+    height: 50px;
+    background: url("../images/all-buttons.png") no-repeat top -62px left -70px;
+}
+
+.service-know-more {
+    background: #393939;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    margin-left: -75px;
+}
+
+.service-know-more:hover {
+    background: #666;
+}
+
+.orange-btn,
+.orange-btn:hover,
+.light-btn,
+.light-btn:hover,
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover,
+ol.bjqs-markers li a,
+.service-know-more,
+.service-know-more:hover,
+.service,
+.service:hover,
+.service-icon,
+.service:hover .service-icon,
+.transition {
+    -webkit-transition: background 0.4s ease-in-out;
+    -moz-transition: background 0.4s ease-in-out;
+    -ms-transition: background 0.4s ease-in-out;
+    -o-transition: background 0.4s ease-in-out;
+    transition: background 0.4s ease-in-out;
+}
