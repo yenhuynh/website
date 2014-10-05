@@ -85,9 +85,92 @@
         <a class="service-know-more" href="#">Know more</a>
     </div>
 </div>
+<div id="site-wide">
+    <h1>A SITE-WIDE <b>CALL TO ACTION</b> SECTION !</h1>
+</div>
+<div id="lastest-work" class="content">
+    <div class="left-col">
+        <h4>Lastest <b>Works</b></h4>
+        <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstra </p>
+    </div>
+    <div class="right-col">
+        <!--  Outer wraper of Sliser -->
+        <div id="mini-slider-content">
+            <!-- start Basic Jquery Slider -->
+            <ul class="bjqs">
+                <li>
+                    <ul class="sub-item-slider">
+                        <li>
+                            <a href="#">
+                                <img src="images/product-1.jpg">
+                                <p>PROJECT 1 DETAILS</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/product-1.jpg">
+                                <p>PROJECT 2 DETAILS</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/product-1.jpg">
+                                <p>PROJECT 3 DETAILS</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="sub-item-slider">
+                        <li>
+                            <a href="#">
+                                <img src="images/product-1.jpg">
+                                <p>PROJECT 4 DETAILS</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/product-1.jpg">
+                                <p>PROJECT 5 DETAILS</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/product-1.jpg">
+                                <p>PROJECT 6 DETAILS</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="sub-item-slider">
+                        <li>
+                            <a href="#">
+                                <img src="images/product-1.jpg">
+                                <p>PROJECT 7 DETAILS</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/product-1.jpg">
+                                <p>PROJECT 8 DETAILS</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/product-1.jpg">
+                                <p>PROJECT 9 DETAILS</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- end Basic jQuery Slider -->
+        </div>
+    </div>
+</div>
 <script class="secret-source">
     jQuery(document).ready(function($) {
-
         $('#slider-content').bjqs({
             showcontrols : false, // show next and prev controls
             height      : 470,
@@ -96,7 +179,16 @@
             automatic : false, // automatic
             responsive  : true
         });
-
+        $('#mini-slider-content').bjqs({
+            showcontrols : true, // show next and prev controls
+            centercontrols : false, // center controls verically
+            height      : 340,
+            width       : 1000,
+            animspeed : 4000, // the delay between each slide
+            automatic : false, // automatic
+            responsive  : true,
+            showmarkers : false // Show individual slide markers
+        });
     });
 </script>
 </body>
