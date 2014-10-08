@@ -399,13 +399,22 @@ p.bjqs-caption{
 
 /** Lastest Work **/
 #lastest-work {
-    padding: 80px 0;
+    padding: 70px 0;
+    clear: both;
+    overflow: hidden;
 }
+
 .left-col {
-    width: 25%;
     float: left;
 }
+.left-col-25 {
+    width: 25%;
+}
+.left-col-50 {
+    width: 50%;
+}
 .left-col h4 {
+    padding-left: 10px;
     font-weight: lighter;
     font-size: 26px;
     color: #666;
@@ -415,15 +424,24 @@ p.bjqs-caption{
     font-weight: bold;
 }
 .left-col p {
+    padding: 10px;
+    font-weight: lighter;
     font-size: 18px;
     color: #999;
+    text-align: justify;
 }
 
 .right-col {
     float: left;
     width: 75%;
 }
+#about {
+    padding: 60px 0;
+    background: #fff;
+    overflow: hidden;
+    clear: both;
 
+}
 #mini-slider-content .bjqs-controls {
     width: 100px;
     margin: 0 auto;
@@ -499,6 +517,60 @@ p.bjqs-caption{
     background: #E0E0E0;
 }
 
+/** Paragraph **/
+#paragraph {
+    padding: 10px 0;
+    width: 90%;
+}
+#paragraph .line {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    color: #fff;
+    background: #FC6F06;
+    margin: 10px 0;
+}
+.photoshop-skill {
+    width: 97%;
+}
+.html-skill {
+    width: 98%;
+}
+.wp-skill {
+    width: 75%;
+}
+.seo-skill {
+    width: 55%;
+}
+
+#connect-us {
+    padding: 20px 0;
+    background: #FC6F06;
+    clear: both;
+    overflow: hidden;
+}
+
+.social-icons {
+    display: table;
+    height: 100px;
+    text-align: center;
+}
+
+.social-icons a{
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+.know-more {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 25px;
+}
 
 .orange-btn,
 .orange-btn:hover,
